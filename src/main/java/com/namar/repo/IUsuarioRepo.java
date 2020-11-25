@@ -6,6 +6,6 @@ import com.namar.model.Usuario;
 
 public interface IUsuarioRepo extends JpaRepository<Usuario, Integer>{
 	
-	
+	Usuario findByNombre(String nombre);
 
 }
